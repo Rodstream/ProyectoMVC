@@ -1,0 +1,12 @@
+C:\Users\Augusto\Desktop\MVC\Vista\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\Augusto\Desktop\MVC\Vista\Modelo\bin\Debug\Modelo.dll
+C:\Users\Augusto\Desktop\MVC\Vista\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Augusto\Desktop\MVC\Vista\Modelo\bin\Debug\EntityFramework.dll
+C:\Users\Augusto\Desktop\MVC\Vista\Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Augusto\Desktop\MVC\Vista\Modelo\bin\Debug\EntityFramework.xml
+C:\Users\Augusto\Desktop\MVC\Vista\Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Augusto\Desktop\MVC\Vista\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\Augusto\Desktop\MVC\Vista\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Augusto\Desktop\MVC\Vista\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\Augusto\Desktop\MVC\Vista\Modelo\obj\Debug\Modelo.dll
+C:\Users\Augusto\Desktop\MVC\Vista\Modelo\obj\Debug\Modelo.pdb
