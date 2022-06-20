@@ -16,6 +16,8 @@ namespace Vista
         public frmLogin()
         {
             InitializeComponent();
+
+            labelCuenta_inexistente.Hide();
         }
 
         OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");
