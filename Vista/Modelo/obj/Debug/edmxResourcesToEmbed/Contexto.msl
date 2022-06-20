@@ -9,7 +9,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Grupos">
-      <EntityTypeMapping TypeName="IsTypeOf(Contexto.Grupo)">
+      <EntityTypeMapping TypeName="IsTypeOf(Contexto.Perfil)">
         <MappingFragment StoreEntitySet="Grupos">
           <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>

@@ -33,7 +33,7 @@
             this.btnBorrar = new System.Windows.Forms.Button();
             this.btnEntrar = new System.Windows.Forms.Button();
             this.checkBoxMosContrasena = new System.Windows.Forms.CheckBox();
-            this.txtContrasena = new System.Windows.Forms.TextBox();
+            this.txtcontrasena = new System.Windows.Forms.TextBox();
             this.label_contrasena = new System.Windows.Forms.Label();
             this.txtNombre_de_usuario = new System.Windows.Forms.TextBox();
             this.label_nombre_usuario = new System.Windows.Forms.Label();
@@ -61,6 +61,7 @@
             this.labelCrear_cuenta.Size = new System.Drawing.Size(93, 18);
             this.labelCrear_cuenta.TabIndex = 23;
             this.labelCrear_cuenta.Text = "Crear cuenta";
+            this.labelCrear_cuenta.Click += new System.EventHandler(this.labelCrear_cuenta_Click);
             // 
             // btnBorrar
             // 
@@ -75,6 +76,7 @@
             this.btnBorrar.TabIndex = 22;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = false;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // btnEntrar
             // 
@@ -90,6 +92,7 @@
             this.btnEntrar.TabIndex = 21;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = false;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // checkBoxMosContrasena
             // 
@@ -104,16 +107,18 @@
             this.checkBoxMosContrasena.TabIndex = 20;
             this.checkBoxMosContrasena.Text = "Mostrar contraseña";
             this.checkBoxMosContrasena.UseVisualStyleBackColor = true;
+            this.checkBoxMosContrasena.CheckedChanged += new System.EventHandler(this.checkBoxMosContrasena_CheckedChanged);
             // 
-            // txtContrasena
+            // txtcontrasena
             // 
-            this.txtContrasena.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
-            this.txtContrasena.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtContrasena.Location = new System.Drawing.Point(37, 174);
-            this.txtContrasena.Multiline = true;
-            this.txtContrasena.Name = "txtContrasena";
-            this.txtContrasena.Size = new System.Drawing.Size(216, 28);
-            this.txtContrasena.TabIndex = 17;
+            this.txtcontrasena.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(233)))));
+            this.txtcontrasena.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtcontrasena.Location = new System.Drawing.Point(37, 174);
+            this.txtcontrasena.Multiline = true;
+            this.txtcontrasena.Name = "txtcontrasena";
+            this.txtcontrasena.PasswordChar = '•';
+            this.txtcontrasena.Size = new System.Drawing.Size(216, 28);
+            this.txtcontrasena.TabIndex = 17;
             // 
             // label_contrasena
             // 
@@ -169,7 +174,7 @@
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.checkBoxMosContrasena);
-            this.Controls.Add(this.txtContrasena);
+            this.Controls.Add(this.txtcontrasena);
             this.Controls.Add(this.label_contrasena);
             this.Controls.Add(this.txtNombre_de_usuario);
             this.Controls.Add(this.label_nombre_usuario);
@@ -177,7 +182,7 @@
             this.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmLogin";
@@ -193,7 +198,7 @@
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.CheckBox checkBoxMosContrasena;
-        private System.Windows.Forms.TextBox txtContrasena;
+        private System.Windows.Forms.TextBox txtcontrasena;
         private System.Windows.Forms.Label label_contrasena;
         private System.Windows.Forms.TextBox txtNombre_de_usuario;
         private System.Windows.Forms.Label label_nombre_usuario;

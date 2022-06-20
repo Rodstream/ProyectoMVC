@@ -81,6 +81,7 @@
             this.txtContrasena.Location = new System.Drawing.Point(28, 168);
             this.txtContrasena.Multiline = true;
             this.txtContrasena.Name = "txtContrasena";
+            this.txtContrasena.PasswordChar = '•';
             this.txtContrasena.Size = new System.Drawing.Size(216, 28);
             this.txtContrasena.TabIndex = 4;
             // 
@@ -102,6 +103,7 @@
             this.txtConcontrasena.Location = new System.Drawing.Point(28, 240);
             this.txtConcontrasena.Multiline = true;
             this.txtConcontrasena.Name = "txtConcontrasena";
+            this.txtConcontrasena.PasswordChar = '•';
             this.txtConcontrasena.Size = new System.Drawing.Size(216, 28);
             this.txtConcontrasena.TabIndex = 6;
             // 
@@ -129,6 +131,7 @@
             this.checkBoxMosContrasena.TabIndex = 7;
             this.checkBoxMosContrasena.Text = "Mostrar contraseña";
             this.checkBoxMosContrasena.UseVisualStyleBackColor = true;
+            this.checkBoxMosContrasena.CheckedChanged += new System.EventHandler(this.checkBoxMosContrasena_CheckedChanged);
             // 
             // btnRegistrar
             // 
@@ -144,6 +147,7 @@
             this.btnRegistrar.TabIndex = 8;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // btnBorrar
             // 
@@ -158,6 +162,7 @@
             this.btnBorrar.TabIndex = 9;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = false;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // labelVolver_log
             // 
@@ -170,6 +175,7 @@
             this.labelVolver_log.Size = new System.Drawing.Size(50, 18);
             this.labelVolver_log.TabIndex = 11;
             this.labelVolver_log.Text = "Volver";
+            this.labelVolver_log.Click += new System.EventHandler(this.labelVolver_log_Click);
             // 
             // labelCuenta_existente
             // 
