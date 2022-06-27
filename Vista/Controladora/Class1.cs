@@ -33,10 +33,12 @@ namespace Controladora
             try
             {
                 comm.ExecuteNonQuery();
+                System.Windows.Forms.MessageBox.Show("Tu cuenta ha sido creada", "Registro completado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception)
             {
-                System.Windows.Forms.MessageBox.Show("Error");
+                string aux_text = "Se ha producido un error. Es posible que el nombre de usuario ya este en uso";
+                System.Windows.Forms.MessageBox.Show(aux_text, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -69,7 +71,30 @@ namespace Controladora
 
         }
 
+        public static string ObtenerCuenta(string user)
+        {
+            string cuenta_comando = "SELECT cuenta FROM usuarios WHERE idusuarios ='" + user + "'";
+            MySqlConnection conectar = new MySqlConnection("server = sql10.freemysqlhosting.net; database = sql10501139; Uid = sql10501139; pwd =7L8lWLZdHR;");
+            conectar.Open();
+            MySqlCommand check_cuenta = new MySqlCommand(cuenta_comando, conectar);
+            var aux_cuenta = check_cuenta.ExecuteScalar();
+            conectar.Close();
+            string cuenta = Convert.ToString(aux_cuenta);
 
+            return cuenta;
+            
+        }
+
+        public static void UpdateCuenta(string user, string valor)
+        {
+            string update_comando = "UPDATE usuarios SET cuenta =" + valor + " WHERE idusuarios = '" + user + "';";
+            MySqlConnection conectar = new MySqlConnection("server = sql10.freemysqlhosting.net; database = sql10501139; Uid = sql10501139; pwd =7L8lWLZdHR;");
+            conectar.Open();
+            MySqlCommand cmd = new MySqlCommand(update_comando, conectar);
+            int numRowsUpdated = cmd.ExecuteNonQuery();
+            conectar.Close();    
+
+        }
 
     }
 }

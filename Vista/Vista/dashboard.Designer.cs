@@ -138,19 +138,19 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(188, 530);
+            this.panel1.Size = new System.Drawing.Size(376, 990);
             this.panel1.TabIndex = 0;
             // 
             // eliminar_btn
             // 
             this.eliminar_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.eliminar_btn.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.eliminar_btn.Location = new System.Drawing.Point(16, 469);
-            this.eliminar_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.eliminar_btn.Location = new System.Drawing.Point(32, 902);
+            this.eliminar_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.eliminar_btn.Name = "eliminar_btn";
-            this.eliminar_btn.Size = new System.Drawing.Size(148, 39);
+            this.eliminar_btn.Size = new System.Drawing.Size(296, 75);
             this.eliminar_btn.TabIndex = 13;
             this.eliminar_btn.Text = "Eliminar Todo";
             this.eliminar_btn.UseVisualStyleBackColor = true;
@@ -161,10 +161,10 @@
             this.productos_lbl.AutoSize = true;
             this.productos_lbl.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.productos_lbl.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.productos_lbl.Location = new System.Drawing.Point(155, 117);
-            this.productos_lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.productos_lbl.Location = new System.Drawing.Point(310, 225);
+            this.productos_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.productos_lbl.Name = "productos_lbl";
-            this.productos_lbl.Size = new System.Drawing.Size(15, 16);
+            this.productos_lbl.Size = new System.Drawing.Size(31, 33);
             this.productos_lbl.TabIndex = 12;
             this.productos_lbl.Text = "0";
             // 
@@ -173,20 +173,20 @@
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("MS UI Gothic", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label24.Location = new System.Drawing.Point(7, 119);
-            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label24.Location = new System.Drawing.Point(14, 229);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(144, 14);
+            this.label24.Size = new System.Drawing.Size(275, 27);
             this.label24.TabIndex = 11;
             this.label24.Text = "Cantidad de Productos:";
             // 
             // compra_btn
             // 
             this.compra_btn.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.compra_btn.Location = new System.Drawing.Point(16, 235);
-            this.compra_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.compra_btn.Location = new System.Drawing.Point(32, 452);
+            this.compra_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.compra_btn.Name = "compra_btn";
-            this.compra_btn.Size = new System.Drawing.Size(148, 39);
+            this.compra_btn.Size = new System.Drawing.Size(296, 75);
             this.compra_btn.TabIndex = 10;
             this.compra_btn.Text = "Finalizar Compra";
             this.compra_btn.UseVisualStyleBackColor = true;
@@ -197,10 +197,10 @@
             this.compra_lbl.AutoSize = true;
             this.compra_lbl.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.compra_lbl.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.compra_lbl.Location = new System.Drawing.Point(133, 93);
-            this.compra_lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.compra_lbl.Location = new System.Drawing.Point(266, 179);
+            this.compra_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.compra_lbl.Name = "compra_lbl";
-            this.compra_lbl.Size = new System.Drawing.Size(15, 16);
+            this.compra_lbl.Size = new System.Drawing.Size(31, 33);
             this.compra_lbl.TabIndex = 9;
             this.compra_lbl.Text = "0";
             // 
@@ -209,10 +209,10 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label25.Location = new System.Drawing.Point(7, 93);
-            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label25.Location = new System.Drawing.Point(14, 179);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(122, 16);
+            this.label25.Size = new System.Drawing.Size(241, 33);
             this.label25.TabIndex = 8;
             this.label25.Text = "Compra actual: $";
             // 
@@ -221,32 +221,33 @@
             this.actual_lbl.AutoSize = true;
             this.actual_lbl.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.actual_lbl.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.actual_lbl.Location = new System.Drawing.Point(117, 68);
-            this.actual_lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.actual_lbl.Location = new System.Drawing.Point(234, 131);
+            this.actual_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.actual_lbl.Name = "actual_lbl";
-            this.actual_lbl.Size = new System.Drawing.Size(15, 16);
+            this.actual_lbl.Size = new System.Drawing.Size(31, 33);
             this.actual_lbl.TabIndex = 7;
             this.actual_lbl.Text = "0";
+            this.actual_lbl.Click += new System.EventHandler(this.actual_lbl_Click);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label10.Location = new System.Drawing.Point(7, 68);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(14, 131);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(112, 16);
+            this.label10.Size = new System.Drawing.Size(225, 33);
             this.label10.TabIndex = 6;
             this.label10.Text = "Dinero actual: $";
             // 
             // billetera_btn
             // 
             this.billetera_btn.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.billetera_btn.Location = new System.Drawing.Point(16, 176);
-            this.billetera_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.billetera_btn.Location = new System.Drawing.Point(32, 338);
+            this.billetera_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.billetera_btn.Name = "billetera_btn";
-            this.billetera_btn.Size = new System.Drawing.Size(148, 39);
+            this.billetera_btn.Size = new System.Drawing.Size(296, 75);
             this.billetera_btn.TabIndex = 5;
             this.billetera_btn.Text = "Billetera";
             this.billetera_btn.UseVisualStyleBackColor = true;
@@ -257,10 +258,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(6, 21);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(12, 40);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(146, 19);
+            this.label1.Size = new System.Drawing.Size(269, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nuestra Tienda";
             // 
@@ -271,19 +272,19 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.carrito_panel);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(188, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Location = new System.Drawing.Point(376, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(635, 530);
+            this.panel2.Size = new System.Drawing.Size(1250, 990);
             this.panel2.TabIndex = 1;
             // 
             // pictureBox11
             // 
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(494, 21);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox11.Location = new System.Drawing.Point(896, 40);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(38, 37);
+            this.pictureBox11.Size = new System.Drawing.Size(76, 71);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox11.TabIndex = 4;
             this.pictureBox11.TabStop = false;
@@ -292,10 +293,10 @@
             // 
             this.user_lbl.AutoSize = true;
             this.user_lbl.Font = new System.Drawing.Font("MS UI Gothic", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user_lbl.Location = new System.Drawing.Point(535, 28);
-            this.user_lbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.user_lbl.Location = new System.Drawing.Point(978, 54);
+            this.user_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user_lbl.Name = "user_lbl";
-            this.user_lbl.Size = new System.Drawing.Size(63, 19);
+            this.user_lbl.Size = new System.Drawing.Size(117, 37);
             this.user_lbl.TabIndex = 3;
             this.user_lbl.Text = "Admin";
             // 
@@ -304,10 +305,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("MS UI Gothic", 19.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
-            this.label2.Location = new System.Drawing.Point(29, 21);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(58, 40);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 27);
+            this.label2.Size = new System.Drawing.Size(260, 53);
             this.label2.TabIndex = 2;
             this.label2.Text = "Productos";
             // 
@@ -326,10 +327,10 @@
             this.carrito_panel.Controls.Add(this.panel13);
             this.carrito_panel.Controls.Add(this.panel7);
             this.carrito_panel.Controls.Add(this.panel11);
-            this.carrito_panel.Location = new System.Drawing.Point(32, 68);
-            this.carrito_panel.Margin = new System.Windows.Forms.Padding(2);
+            this.carrito_panel.Location = new System.Drawing.Point(64, 131);
+            this.carrito_panel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.carrito_panel.Name = "carrito_panel";
-            this.carrito_panel.Size = new System.Drawing.Size(597, 457);
+            this.carrito_panel.Size = new System.Drawing.Size(1174, 850);
             this.carrito_panel.TabIndex = 0;
             this.carrito_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.carrito_panel_Paint);
             // 
@@ -340,20 +341,20 @@
             this.panel5.Controls.Add(this.pictureBox2);
             this.panel5.Controls.Add(this.panel6);
             this.panel5.Controls.Add(this.label5);
-            this.panel5.Location = new System.Drawing.Point(2, 2);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2);
+            this.panel5.Location = new System.Drawing.Point(4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(185, 242);
+            this.panel5.Size = new System.Drawing.Size(370, 465);
             this.panel5.TabIndex = 5;
             // 
             // button7
             // 
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(20, 207);
-            this.button7.Margin = new System.Windows.Forms.Padding(2);
+            this.button7.Location = new System.Drawing.Point(40, 398);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(82, 34);
+            this.button7.Size = new System.Drawing.Size(164, 65);
             this.button7.TabIndex = 4;
             this.button7.Text = "Agregar al carrito";
             this.button7.UseVisualStyleBackColor = true;
@@ -364,10 +365,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(116, 214);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(232, 412);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 17);
+            this.label4.Size = new System.Drawing.Size(81, 33);
             this.label4.TabIndex = 3;
             this.label4.Text = "$10,800";
             // 
@@ -375,20 +376,20 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.InitialImage")));
-            this.pictureBox2.Location = new System.Drawing.Point(2, 37);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Location = new System.Drawing.Point(4, 71);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(184, 167);
+            this.pictureBox2.Size = new System.Drawing.Size(368, 321);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
             // panel6
             // 
-            this.panel6.Location = new System.Drawing.Point(188, 0);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2);
+            this.panel6.Location = new System.Drawing.Point(376, 0);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(185, 145);
+            this.panel6.Size = new System.Drawing.Size(370, 279);
             this.panel6.TabIndex = 1;
             // 
             // label5
@@ -396,10 +397,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
-            this.label5.Location = new System.Drawing.Point(16, 13);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(32, 25);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(141, 19);
+            this.label5.Size = new System.Drawing.Size(277, 39);
             this.label5.TabIndex = 2;
             this.label5.Text = "Zelda: Breath Of The Wild";
             // 
@@ -410,20 +411,20 @@
             this.panel19.Controls.Add(this.pictureBox9);
             this.panel19.Controls.Add(this.panel20);
             this.panel19.Controls.Add(this.label21);
-            this.panel19.Location = new System.Drawing.Point(191, 2);
-            this.panel19.Margin = new System.Windows.Forms.Padding(2);
+            this.panel19.Location = new System.Drawing.Point(382, 4);
+            this.panel19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(185, 242);
+            this.panel19.Size = new System.Drawing.Size(370, 465);
             this.panel19.TabIndex = 9;
             // 
             // button10
             // 
             this.button10.FlatAppearance.BorderSize = 0;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(20, 207);
-            this.button10.Margin = new System.Windows.Forms.Padding(2);
+            this.button10.Location = new System.Drawing.Point(40, 398);
+            this.button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(80, 34);
+            this.button10.Size = new System.Drawing.Size(160, 65);
             this.button10.TabIndex = 4;
             this.button10.Text = "Agregar al carrito";
             this.button10.UseVisualStyleBackColor = true;
@@ -434,10 +435,10 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.Black;
-            this.label20.Location = new System.Drawing.Point(118, 215);
-            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label20.Location = new System.Drawing.Point(236, 413);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(44, 17);
+            this.label20.Size = new System.Drawing.Size(81, 33);
             this.label20.TabIndex = 3;
             this.label20.Text = "$10,800";
             // 
@@ -445,20 +446,20 @@
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox9.InitialImage")));
-            this.pictureBox9.Location = new System.Drawing.Point(0, 37);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox9.Location = new System.Drawing.Point(0, 71);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(184, 167);
+            this.pictureBox9.Size = new System.Drawing.Size(368, 321);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 2;
             this.pictureBox9.TabStop = false;
             // 
             // panel20
             // 
-            this.panel20.Location = new System.Drawing.Point(188, 0);
-            this.panel20.Margin = new System.Windows.Forms.Padding(2);
+            this.panel20.Location = new System.Drawing.Point(376, 0);
+            this.panel20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(185, 145);
+            this.panel20.Size = new System.Drawing.Size(370, 279);
             this.panel20.TabIndex = 1;
             // 
             // label21
@@ -466,10 +467,10 @@
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
-            this.label21.Location = new System.Drawing.Point(16, 13);
-            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label21.Location = new System.Drawing.Point(32, 25);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(88, 19);
+            this.label21.Size = new System.Drawing.Size(173, 39);
             this.label21.TabIndex = 2;
             this.label21.Text = "Mario Galaxy 2";
             // 
@@ -480,20 +481,20 @@
             this.panel17.Controls.Add(this.pictureBox8);
             this.panel17.Controls.Add(this.panel18);
             this.panel17.Controls.Add(this.label19);
-            this.panel17.Location = new System.Drawing.Point(380, 2);
-            this.panel17.Margin = new System.Windows.Forms.Padding(2);
+            this.panel17.Location = new System.Drawing.Point(760, 4);
+            this.panel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(185, 242);
+            this.panel17.Size = new System.Drawing.Size(370, 465);
             this.panel17.TabIndex = 10;
             // 
             // button9
             // 
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(20, 207);
-            this.button9.Margin = new System.Windows.Forms.Padding(2);
+            this.button9.Location = new System.Drawing.Point(40, 398);
+            this.button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(80, 34);
+            this.button9.Size = new System.Drawing.Size(160, 65);
             this.button9.TabIndex = 4;
             this.button9.Text = "Agregar al carrito";
             this.button9.UseVisualStyleBackColor = true;
@@ -504,10 +505,10 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(118, 215);
-            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label18.Location = new System.Drawing.Point(236, 413);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(38, 17);
+            this.label18.Size = new System.Drawing.Size(71, 33);
             this.label18.TabIndex = 3;
             this.label18.Text = "$1,800";
             // 
@@ -515,20 +516,20 @@
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.InitialImage")));
-            this.pictureBox8.Location = new System.Drawing.Point(2, 37);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox8.Location = new System.Drawing.Point(4, 71);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(184, 167);
+            this.pictureBox8.Size = new System.Drawing.Size(368, 321);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 2;
             this.pictureBox8.TabStop = false;
             // 
             // panel18
             // 
-            this.panel18.Location = new System.Drawing.Point(188, 0);
-            this.panel18.Margin = new System.Windows.Forms.Padding(2);
+            this.panel18.Location = new System.Drawing.Point(376, 0);
+            this.panel18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(185, 145);
+            this.panel18.Size = new System.Drawing.Size(370, 279);
             this.panel18.TabIndex = 1;
             // 
             // label19
@@ -536,10 +537,10 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
-            this.label19.Location = new System.Drawing.Point(16, 13);
-            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label19.Location = new System.Drawing.Point(32, 25);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(154, 19);
+            this.label19.Size = new System.Drawing.Size(301, 39);
             this.label19.TabIndex = 2;
             this.label19.Text = "Uncharted 4: A Thieve\'s End";
             // 
@@ -550,20 +551,20 @@
             this.panel15.Controls.Add(this.pictureBox7);
             this.panel15.Controls.Add(this.panel16);
             this.panel15.Controls.Add(this.label17);
-            this.panel15.Location = new System.Drawing.Point(2, 248);
-            this.panel15.Margin = new System.Windows.Forms.Padding(2);
+            this.panel15.Location = new System.Drawing.Point(4, 477);
+            this.panel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(185, 242);
+            this.panel15.Size = new System.Drawing.Size(370, 465);
             this.panel15.TabIndex = 11;
             // 
             // button8
             // 
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(20, 207);
-            this.button8.Margin = new System.Windows.Forms.Padding(2);
+            this.button8.Location = new System.Drawing.Point(40, 398);
+            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(80, 34);
+            this.button8.Size = new System.Drawing.Size(160, 65);
             this.button8.TabIndex = 4;
             this.button8.Text = "Agregar al carrito";
             this.button8.UseVisualStyleBackColor = true;
@@ -574,10 +575,10 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(118, 215);
-            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Location = new System.Drawing.Point(236, 413);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(40, 17);
+            this.label16.Size = new System.Drawing.Size(75, 33);
             this.label16.TabIndex = 3;
             this.label16.Text = "$3,500";
             this.label16.Click += new System.EventHandler(this.label16_Click);
@@ -586,20 +587,20 @@
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.InitialImage")));
-            this.pictureBox7.Location = new System.Drawing.Point(2, 37);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox7.Location = new System.Drawing.Point(4, 71);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(184, 167);
+            this.pictureBox7.Size = new System.Drawing.Size(368, 321);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 2;
             this.pictureBox7.TabStop = false;
             // 
             // panel16
             // 
-            this.panel16.Location = new System.Drawing.Point(188, 0);
-            this.panel16.Margin = new System.Windows.Forms.Padding(2);
+            this.panel16.Location = new System.Drawing.Point(376, 0);
+            this.panel16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(185, 145);
+            this.panel16.Size = new System.Drawing.Size(370, 279);
             this.panel16.TabIndex = 1;
             // 
             // label17
@@ -607,10 +608,10 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
-            this.label17.Location = new System.Drawing.Point(16, 13);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Location = new System.Drawing.Point(32, 25);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(60, 19);
+            this.label17.Size = new System.Drawing.Size(118, 39);
             this.label17.TabIndex = 2;
             this.label17.Text = "Minecraft";
             // 
@@ -621,20 +622,20 @@
             this.panel21.Controls.Add(this.pictureBox10);
             this.panel21.Controls.Add(this.panel22);
             this.panel21.Controls.Add(this.label23);
-            this.panel21.Location = new System.Drawing.Point(191, 248);
-            this.panel21.Margin = new System.Windows.Forms.Padding(2);
+            this.panel21.Location = new System.Drawing.Point(382, 477);
+            this.panel21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(185, 242);
+            this.panel21.Size = new System.Drawing.Size(370, 465);
             this.panel21.TabIndex = 12;
             // 
             // button11
             // 
             this.button11.FlatAppearance.BorderSize = 0;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(20, 207);
-            this.button11.Margin = new System.Windows.Forms.Padding(2);
+            this.button11.Location = new System.Drawing.Point(40, 398);
+            this.button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(80, 34);
+            this.button11.Size = new System.Drawing.Size(160, 65);
             this.button11.TabIndex = 4;
             this.button11.Text = "Agregar al carrito";
             this.button11.UseVisualStyleBackColor = true;
@@ -645,10 +646,10 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.Black;
-            this.label22.Location = new System.Drawing.Point(118, 215);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label22.Location = new System.Drawing.Point(236, 413);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(38, 17);
+            this.label22.Size = new System.Drawing.Size(71, 33);
             this.label22.TabIndex = 3;
             this.label22.Text = "$1,500";
             // 
@@ -656,20 +657,20 @@
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
             this.pictureBox10.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox10.InitialImage")));
-            this.pictureBox10.Location = new System.Drawing.Point(2, 37);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox10.Location = new System.Drawing.Point(4, 71);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(184, 167);
+            this.pictureBox10.Size = new System.Drawing.Size(368, 321);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 2;
             this.pictureBox10.TabStop = false;
             // 
             // panel22
             // 
-            this.panel22.Location = new System.Drawing.Point(188, 0);
-            this.panel22.Margin = new System.Windows.Forms.Padding(2);
+            this.panel22.Location = new System.Drawing.Point(376, 0);
+            this.panel22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(185, 145);
+            this.panel22.Size = new System.Drawing.Size(370, 279);
             this.panel22.TabIndex = 1;
             // 
             // label23
@@ -677,10 +678,10 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
-            this.label23.Location = new System.Drawing.Point(16, 13);
-            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label23.Location = new System.Drawing.Point(32, 25);
+            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(73, 19);
+            this.label23.Size = new System.Drawing.Size(144, 39);
             this.label23.TabIndex = 2;
             this.label23.Text = "Rainbow Six";
             // 
@@ -691,20 +692,20 @@
             this.panel9.Controls.Add(this.pictureBox4);
             this.panel9.Controls.Add(this.panel10);
             this.panel9.Controls.Add(this.label9);
-            this.panel9.Location = new System.Drawing.Point(380, 248);
-            this.panel9.Margin = new System.Windows.Forms.Padding(2);
+            this.panel9.Location = new System.Drawing.Point(760, 477);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(185, 242);
+            this.panel9.Size = new System.Drawing.Size(370, 465);
             this.panel9.TabIndex = 13;
             // 
             // button3
             // 
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(20, 207);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Location = new System.Drawing.Point(40, 398);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(80, 34);
+            this.button3.Size = new System.Drawing.Size(160, 65);
             this.button3.TabIndex = 4;
             this.button3.Text = "Agregar al carrito";
             this.button3.UseVisualStyleBackColor = true;
@@ -715,10 +716,10 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(118, 215);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Location = new System.Drawing.Point(236, 413);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(39, 17);
+            this.label8.Size = new System.Drawing.Size(74, 33);
             this.label8.TabIndex = 3;
             this.label8.Text = "$3,600";
             // 
@@ -726,20 +727,20 @@
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.InitialImage")));
-            this.pictureBox4.Location = new System.Drawing.Point(2, 37);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Location = new System.Drawing.Point(4, 71);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(184, 167);
+            this.pictureBox4.Size = new System.Drawing.Size(368, 321);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
             // 
             // panel10
             // 
-            this.panel10.Location = new System.Drawing.Point(188, 0);
-            this.panel10.Margin = new System.Windows.Forms.Padding(2);
+            this.panel10.Location = new System.Drawing.Point(376, 0);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(185, 145);
+            this.panel10.Size = new System.Drawing.Size(370, 279);
             this.panel10.TabIndex = 1;
             // 
             // label9
@@ -747,10 +748,10 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
-            this.label9.Location = new System.Drawing.Point(16, 13);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(32, 25);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(66, 19);
+            this.label9.Size = new System.Drawing.Size(130, 39);
             this.label9.TabIndex = 2;
             this.label9.Text = "God Of War";
             this.label9.Click += new System.EventHandler(this.label9_Click);
@@ -762,20 +763,20 @@
             this.panel13.Controls.Add(this.pictureBox6);
             this.panel13.Controls.Add(this.panel14);
             this.panel13.Controls.Add(this.label15);
-            this.panel13.Location = new System.Drawing.Point(2, 494);
-            this.panel13.Margin = new System.Windows.Forms.Padding(2);
+            this.panel13.Location = new System.Drawing.Point(4, 950);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(185, 242);
+            this.panel13.Size = new System.Drawing.Size(370, 465);
             this.panel13.TabIndex = 14;
             // 
             // button4
             // 
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(20, 207);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Location = new System.Drawing.Point(40, 398);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(80, 34);
+            this.button4.Size = new System.Drawing.Size(160, 65);
             this.button4.TabIndex = 4;
             this.button4.Text = "Agregar al carrito";
             this.button4.UseVisualStyleBackColor = true;
@@ -786,10 +787,10 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(118, 215);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Location = new System.Drawing.Point(236, 413);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(39, 17);
+            this.label14.Size = new System.Drawing.Size(72, 33);
             this.label14.TabIndex = 3;
             this.label14.Text = "$9,000";
             // 
@@ -797,20 +798,20 @@
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.InitialImage")));
-            this.pictureBox6.Location = new System.Drawing.Point(2, 37);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox6.Location = new System.Drawing.Point(4, 71);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(184, 167);
+            this.pictureBox6.Size = new System.Drawing.Size(368, 321);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
             // 
             // panel14
             // 
-            this.panel14.Location = new System.Drawing.Point(188, 0);
-            this.panel14.Margin = new System.Windows.Forms.Padding(2);
+            this.panel14.Location = new System.Drawing.Point(376, 0);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(185, 145);
+            this.panel14.Size = new System.Drawing.Size(370, 279);
             this.panel14.TabIndex = 1;
             // 
             // label15
@@ -818,10 +819,10 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
-            this.label15.Location = new System.Drawing.Point(16, 13);
-            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Location = new System.Drawing.Point(32, 25);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(92, 19);
+            this.label15.Size = new System.Drawing.Size(178, 39);
             this.label15.TabIndex = 2;
             this.label15.Text = "Forza Horizon 5";
             // 
@@ -832,20 +833,20 @@
             this.panel7.Controls.Add(this.pictureBox3);
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Controls.Add(this.label7);
-            this.panel7.Location = new System.Drawing.Point(191, 494);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2);
+            this.panel7.Location = new System.Drawing.Point(382, 950);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(185, 242);
+            this.panel7.Size = new System.Drawing.Size(370, 465);
             this.panel7.TabIndex = 15;
             // 
             // button2
             // 
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(20, 207);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(40, 398);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(80, 34);
+            this.button2.Size = new System.Drawing.Size(160, 65);
             this.button2.TabIndex = 4;
             this.button2.Text = "Agregar al carrito";
             this.button2.UseVisualStyleBackColor = true;
@@ -856,10 +857,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(118, 215);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(236, 413);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 17);
+            this.label6.Size = new System.Drawing.Size(81, 33);
             this.label6.TabIndex = 3;
             this.label6.Text = "$10,800";
             // 
@@ -867,20 +868,20 @@
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.InitialImage")));
-            this.pictureBox3.Location = new System.Drawing.Point(2, 37);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Location = new System.Drawing.Point(4, 71);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(184, 167);
+            this.pictureBox3.Size = new System.Drawing.Size(368, 321);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
             // panel8
             // 
-            this.panel8.Location = new System.Drawing.Point(188, 0);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2);
+            this.panel8.Location = new System.Drawing.Point(376, 0);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(185, 145);
+            this.panel8.Size = new System.Drawing.Size(370, 279);
             this.panel8.TabIndex = 1;
             // 
             // label7
@@ -888,10 +889,10 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
-            this.label7.Location = new System.Drawing.Point(16, 13);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(32, 25);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(148, 19);
+            this.label7.Size = new System.Drawing.Size(297, 39);
             this.label7.TabIndex = 2;
             this.label7.Text = "Fire Emblem Three Houses";
             // 
@@ -902,20 +903,20 @@
             this.panel11.Controls.Add(this.pictureBox5);
             this.panel11.Controls.Add(this.panel12);
             this.panel11.Controls.Add(this.label13);
-            this.panel11.Location = new System.Drawing.Point(380, 494);
-            this.panel11.Margin = new System.Windows.Forms.Padding(2);
+            this.panel11.Location = new System.Drawing.Point(760, 950);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(185, 242);
+            this.panel11.Size = new System.Drawing.Size(370, 465);
             this.panel11.TabIndex = 5;
             // 
             // button1
             // 
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(20, 207);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(40, 398);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 34);
+            this.button1.Size = new System.Drawing.Size(160, 65);
             this.button1.TabIndex = 4;
             this.button1.Text = "Agregar al carrito";
             this.button1.UseVisualStyleBackColor = true;
@@ -926,10 +927,10 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(118, 215);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(236, 413);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(38, 17);
+            this.label12.Size = new System.Drawing.Size(71, 33);
             this.label12.TabIndex = 3;
             this.label12.Text = "$1,800";
             // 
@@ -937,20 +938,20 @@
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.InitialImage = null;
-            this.pictureBox5.Location = new System.Drawing.Point(2, 37);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Location = new System.Drawing.Point(4, 71);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(184, 167);
+            this.pictureBox5.Size = new System.Drawing.Size(368, 321);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 2;
             this.pictureBox5.TabStop = false;
             // 
             // panel12
             // 
-            this.panel12.Location = new System.Drawing.Point(188, 0);
-            this.panel12.Margin = new System.Windows.Forms.Padding(2);
+            this.panel12.Location = new System.Drawing.Point(376, 0);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(185, 145);
+            this.panel12.Size = new System.Drawing.Size(370, 279);
             this.panel12.TabIndex = 1;
             // 
             // label13
@@ -958,23 +959,23 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
-            this.label13.Location = new System.Drawing.Point(16, 13);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Location = new System.Drawing.Point(32, 25);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(93, 19);
+            this.label13.Size = new System.Drawing.Size(186, 39);
             this.label13.TabIndex = 2;
             this.label13.Text = "Cyberpunk 2077";
             // 
             // dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(823, 530);
+            this.ClientSize = new System.Drawing.Size(1626, 990);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MaximumSize = new System.Drawing.Size(839, 586);
-            this.MinimumSize = new System.Drawing.Size(839, 558);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(1652, 1061);
+            this.MinimumSize = new System.Drawing.Size(1652, 1008);
             this.Name = "dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "eShop";

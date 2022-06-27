@@ -40,7 +40,7 @@ namespace Vista
                 Controladora.BdComun.InsertarValores(user, password);
 
 
-                MessageBox.Show("Tu cuenta ha sido creada", "Registro completado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
             }
             else
             {

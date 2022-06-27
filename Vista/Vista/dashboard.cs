@@ -18,6 +18,7 @@ namespace Vista
             Size = new Size(1662, 1091);
             compra_lbl.Text = compra.ToString();
             user_lbl.Text = user;
+            actual_lbl.Text = Controladora.BdComun.ObtenerCuenta(user_lbl.Text);
 
         }
 
@@ -153,8 +154,6 @@ namespace Vista
             {
                 Factura factura_pantalla = new Factura();
 
-
-
                 factura_pantalla.Show();
 
             }
@@ -167,10 +166,18 @@ namespace Vista
 
         private void billetera_btn_Click(object sender, EventArgs e)
         {
-            billetera_form billetera = new billetera_form();
+            billetera_form billetera = new billetera_form(user_lbl.Text);
             billetera.Show();
-           // this.Hide();  Activar cuando solucionemos el error del billetera_form
+            this.Close();
+            actual_lbl.Text = Controladora.BdComun.ObtenerCuenta(user_lbl.Text);
 
+
+
+        }
+
+        private void actual_lbl_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
