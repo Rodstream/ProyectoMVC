@@ -150,16 +150,19 @@ namespace Vista
 
         private void compra_btn_Click(object sender, EventArgs e)
         {
-            if (juegos != "")
+            int aux_actual = Int32.Parse(actual_lbl.Text);
+            int aux_compra = Int32.Parse(compra_lbl.Text);
+            if (juegos != "" && aux_actual > aux_compra)
             {
-                Factura factura_pantalla = new Factura();
+                Factura factura_pantalla = new Factura(juegos, compra, user_lbl.Text);
+                this.Close();
 
                 factura_pantalla.Show();
 
             }
             else
             {
-                MessageBox.Show("Selecciona algun juego", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Selecciona algun juego o verifique que cuenta con el dinero necesario para la compra", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
