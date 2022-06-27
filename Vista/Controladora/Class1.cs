@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Configuration;
+using System.Windows.Forms;
+
 
 
 namespace Controladora
@@ -28,11 +30,18 @@ namespace Controladora
             MySqlCommand comm = conectar.CreateCommand();
             comm.CommandText = text;
 
-
-            comm.ExecuteNonQuery();
-            conectar.Close();
-
-
+            try
+            {
+                comm.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+                System.Windows.Forms.MessageBox.Show("Error");
+            }
+            finally
+            {
+                conectar.Close();
+            }
 
             return conectar;
         }
