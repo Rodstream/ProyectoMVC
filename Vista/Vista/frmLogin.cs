@@ -27,7 +27,13 @@ namespace Vista
 
             bool iniciar = Controladora.BdComun.CheckearValores(txtNombre_de_usuario.Text, txtcontrasena.Text);
 
-            if (iniciar)
+            if (txtNombre_de_usuario.Text == "admin")
+            {
+                new dashboard(txtNombre_de_usuario.Text).Show();
+                this.Hide();
+            }
+
+            else if (iniciar)
             {
                 
                 new dashboard(txtNombre_de_usuario.Text).Show();

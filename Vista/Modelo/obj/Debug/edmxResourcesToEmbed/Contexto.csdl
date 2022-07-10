@@ -24,9 +24,7 @@
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <NavigationProperty Name="Perfil" Relationship="Contexto.UsuarioGrupo" FromRole="Usuario" ToRole="Grupo" />
-    <Property Name="Nombre" Type="String" Nullable="false" />
     <Property Name="Email" Type="String" Nullable="false" />
-    <Property Name="Dni" Type="String" Nullable="false" />
     <Property Name="Contrasena" Type="String" Nullable="false" />
   </EntityType>
   <EntityType Name="Perfil">
