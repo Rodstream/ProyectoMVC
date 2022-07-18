@@ -117,7 +117,7 @@ namespace Vista
             compra_lbl.Text = compra.ToString();
             cantidad += 1;
             productos_lbl.Text = cantidad.ToString();
-            juegos += "- Fire Emblem Three Houses\n";
+            juegos += "- Spider Man\n";
         }
 
         private void button4_Click(object sender, EventArgs e)

@@ -16,8 +16,8 @@ namespace Controladora
         public static MySqlConnection InsertarValores(string user, string password)
         {
             string server = "sql5.freemysqlhosting.net";
-            string database = "sql5505367";
-            string passsword = "acLsQMx4jS";
+            string database = "sql5507322";
+            string passsword = "fFbnQYcjUE";
 
 
 
@@ -52,7 +52,7 @@ namespace Controladora
         {
             bool iniciar = false;
             string login = "SELECT * FROM usuarios WHERE idusuarios= '" + user + "' and password= '" + password + "';";
-            MySqlConnection conectar = new MySqlConnection("server = sql5.freemysqlhosting.net; database = sql5505367; Uid = sql5505367; pwd =acLsQMx4jS;");
+            MySqlConnection conectar = new MySqlConnection("server = sql5.freemysqlhosting.net; database = sql5507322; Uid = sql5507322; pwd =fFbnQYcjUE;");
 
 
             conectar.Open();
@@ -74,7 +74,7 @@ namespace Controladora
         public static string ObtenerCuenta(string user)
         {
             string cuenta_comando = "SELECT cuenta FROM usuarios WHERE idusuarios ='" + user + "'";
-            MySqlConnection conectar = new MySqlConnection("server = sql5.freemysqlhosting.net; database = sql5505367; Uid = sql5505367; pwd =acLsQMx4jS;");
+            MySqlConnection conectar = new MySqlConnection("server = sql5.freemysqlhosting.net; database = sql5507322; Uid = sql5507322; pwd =fFbnQYcjUE;");
             conectar.Open();
             MySqlCommand check_cuenta = new MySqlCommand(cuenta_comando, conectar);
             var aux_cuenta = check_cuenta.ExecuteScalar();
@@ -88,7 +88,7 @@ namespace Controladora
         public static void UpdateCuenta(string user, string valor)
         {
             string update_comando = "UPDATE usuarios SET cuenta =" + valor + " WHERE idusuarios = '" + user + "';";
-            MySqlConnection conectar = new MySqlConnection("server = sql5.freemysqlhosting.net; database = sql5505367; Uid = sql5505367; pwd =acLsQMx4jS;");
+            MySqlConnection conectar = new MySqlConnection("server = sql5.freemysqlhosting.net; database = sql5507322; Uid = sql5507322; pwd =fFbnQYcjUE;");
             conectar.Open();
             MySqlCommand cmd = new MySqlCommand(update_comando, conectar);
             int numRowsUpdated = cmd.ExecuteNonQuery();
