@@ -118,7 +118,6 @@ C:\Users\Augusto\Downloads\ProyectoMVC-carrito\Vista\Vista\obj\Debug\Vista.Factu
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Vista\bin\Debug\Controladora.dll.config
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Vista\bin\Debug\Modelo.pdb
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Vista\bin\Debug\Modelo.dll.config
-\\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Vista\bin\Debug\EntityFramework.xml
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Vista\bin\Debug\EntityFramework.SqlServer.xml
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Vista\bin\Debug\MySql.Data.xml
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Vista\obj\Debug\Vista.csproj.AssemblyReference.cache

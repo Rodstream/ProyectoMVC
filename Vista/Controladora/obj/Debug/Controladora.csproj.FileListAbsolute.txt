@@ -59,7 +59,6 @@ C:\Users\Augusto\Desktop\MVC\Vista\Controladora\obj\Debug\Controladora.pdb
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Controladora\bin\Debug\System.Numerics.Vectors.dll
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Controladora\bin\Debug\Modelo.pdb
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Controladora\bin\Debug\Modelo.dll.config
-\\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Controladora\bin\Debug\EntityFramework.xml
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Controladora\bin\Debug\EntityFramework.SqlServer.xml
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Controladora\bin\Debug\MySql.Data.xml
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Controladora\obj\Debug\Controladora.csproj.AssemblyReference.cache

@@ -15,7 +15,6 @@ C:\Users\Augusto\Desktop\MVC\Vista\Modelo\obj\Debug\Modelo.pdb
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Modelo\bin\Debug\Modelo.pdb
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Modelo\bin\Debug\EntityFramework.dll
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Modelo\bin\Debug\EntityFramework.SqlServer.dll
-\\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Modelo\bin\Debug\EntityFramework.xml
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Modelo\bin\Debug\EntityFramework.SqlServer.xml
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
 \\Mac\Home\Documents\📚\OOP\ProyectoMVC-carrito\Vista\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache

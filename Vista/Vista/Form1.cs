@@ -32,7 +32,7 @@ namespace Vista
             {
 
                 string user = txtNombre_de_usuario.Text;
-                string password = txtContrasena.Text;
+                string password = Controladora.BdComun.Encriptar(txtContrasena.Text);
                 
                 txtNombre_de_usuario.Text = "";
                 txtContrasena.Text = "";
