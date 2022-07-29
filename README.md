@@ -15,4 +15,5 @@ En el siguiente proyecto contamos con varios formularios, siendo los principales
 - Ezequiel Zari
 - Mateo De La Torre
 
-Proyecto de la facultad, se hace lo que se puede.
+
+Proyecto de la facultad, se hace lo que se puede. 
