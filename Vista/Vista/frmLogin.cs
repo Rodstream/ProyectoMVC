@@ -21,7 +21,7 @@ namespace Vista
             labelCuenta_inexistente.Hide();
         }
 
-       
+        // Revisamos que los datos coincidan con un usuario ya registrado
         private void btnEntrar_Click(object sender, EventArgs e)
         {
 

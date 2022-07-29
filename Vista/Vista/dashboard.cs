@@ -182,5 +182,16 @@ namespace Vista
         {
             
         }
+
+        private void eliminar_user_Click(object sender, EventArgs e)
+        {
+            
+            DialogResult dialogResult = MessageBox.Show("Confirme si desea eliminar el usuario", "Confirmacion", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.Yes)
+            {
+                Controladora.BdComun.Eliminar(user_lbl.Text);
+                this.Close();
+            }
+        }
     }
 }

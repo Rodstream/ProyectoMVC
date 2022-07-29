@@ -99,6 +99,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
+            this.eliminar_user = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -126,6 +127,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.panel1.Controls.Add(this.eliminar_user);
             this.panel1.Controls.Add(this.eliminar_btn);
             this.panel1.Controls.Add(this.productos_lbl);
             this.panel1.Controls.Add(this.label24);
@@ -147,7 +149,7 @@
             // 
             this.eliminar_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.eliminar_btn.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.eliminar_btn.Location = new System.Drawing.Point(32, 902);
+            this.eliminar_btn.Location = new System.Drawing.Point(32, 812);
             this.eliminar_btn.Margin = new System.Windows.Forms.Padding(4);
             this.eliminar_btn.Name = "eliminar_btn";
             this.eliminar_btn.Size = new System.Drawing.Size(296, 75);
@@ -966,6 +968,19 @@
             this.label13.TabIndex = 2;
             this.label13.Text = "Cyberpunk 2077";
             // 
+            // eliminar_user
+            // 
+            this.eliminar_user.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.eliminar_user.Font = new System.Drawing.Font("Bahnschrift Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eliminar_user.Location = new System.Drawing.Point(32, 902);
+            this.eliminar_user.Margin = new System.Windows.Forms.Padding(4);
+            this.eliminar_user.Name = "eliminar_user";
+            this.eliminar_user.Size = new System.Drawing.Size(296, 75);
+            this.eliminar_user.TabIndex = 14;
+            this.eliminar_user.Text = "Eliminar Usuario";
+            this.eliminar_user.UseVisualStyleBackColor = true;
+            this.eliminar_user.Click += new System.EventHandler(this.eliminar_user_Click);
+            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -1088,5 +1103,6 @@
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.Label user_lbl;
         public System.Windows.Forms.Label actual_lbl;
+        private System.Windows.Forms.Button eliminar_user;
     }
 }

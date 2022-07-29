@@ -23,11 +23,12 @@ namespace Vista
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            
+            // Chequeando datos ingresados por pantalla
             if (txtNombre_de_usuario.Text == "" && txtContrasena.Text == "" && txtConcontrasena.Text == "")
             {
                 MessageBox.Show("Faltan completar datos", "Operacion fallida", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            // Si las claves son iguales, procedemos al registro
             else if (txtContrasena.Text == txtConcontrasena.Text)
             {
 
@@ -38,9 +39,6 @@ namespace Vista
                 txtContrasena.Text = "";
                 txtConcontrasena.Text = "";
                 Controladora.BdComun.InsertarValores(user, password);
-
-
-                
             }
             else
             {
@@ -52,6 +50,7 @@ namespace Vista
 
         }
 
+        // Funcion para hacer visible la contrasena
         private void checkBoxMosContrasena_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBoxMosContrasena.Checked)
@@ -68,6 +67,7 @@ namespace Vista
 
         }
 
+
         private void btnBorrar_Click(object sender, EventArgs e)
         {
             txtNombre_de_usuario.Text = "";
@@ -76,6 +76,7 @@ namespace Vista
             txtNombre_de_usuario.Focus();
         }
 
+        // Cambiamos al formulario de inicio de sesion
         private void labelVolver_log_Click(object sender, EventArgs e)
         {
             new frmLogin().Show();
