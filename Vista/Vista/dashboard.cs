@@ -12,7 +12,7 @@ namespace Vista
 {
     public partial class dashboard : Form
     {
-        public dashboard(string user)
+        public dashboard(string user) //a
         {
             InitializeComponent();
             Size = new Size(1662, 1091);
