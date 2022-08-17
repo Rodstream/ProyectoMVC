@@ -20,7 +20,3 @@ Dentro de la aplicación, contamos con posibilidad de agregar dinero, el cual se
 
 
 Proyecto de la facultad, se hace lo que se puede. 
-
-Ultima update de este increible proyecto, nos encanto hacerlo aunque hicimos lo que pudimos, tuvimos reuniones donde la alegria y el enojo abundaban todo el tiempo.
-Estamos muy orgullosos de que puedan utilizar nuestro software de venta de juegos con precios sumamente desactualizados y esperamos poder usar esto en nuestro portfolio para conseguir nuestro tan esperado trabajo en Canada con un sueldo de 120k usd canadienses anuales (aunque la mitad se vaya en imp).
-Saludos y se despide el mejor team que pudo haber tenido este team de la uai, nos vemos.
